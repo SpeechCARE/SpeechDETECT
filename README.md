@@ -1,13 +1,13 @@
-# SpeechCARE: Speech Analysis Pipeline
+# SpeechDETECT: Speech Analysis Pipeline
 
 ## Overview
-This is the repo of "SpeechCARE: An Explainable Automated Speech Processing Tool for Early Detection of Cognitive ImpAiRmEnt".
+This is the repo of "SpeechDETECT: An Explainable Automated Speech Processing Tool for Early Detection of Cognitive ImpAiRmEnt".
 This study developed a comprehensive acoustic parameter set tailored to detect speech cues indicative of cognitive impairment. This set evaluates the vocal component across eight domains representing *vocal traits*—including Frequency Parameters, Cepstral Coefficients and Spectral Features, Voice Quality, Loudness, Intensity, and Speech Signal Complexity—and *speech temporal aspects*, including Speech Fluency, Rhythmic Structure, and Speech Production Dynamics. We assessed the effectiveness SpeechCARE using the DementiaBank dataset, a recognized benchmark that contains audio recordings from the "Cookie-Theft" picture-description task. Our evaluations, conducted with a machine learning classifier, revealed that Voice-Mark MCI offers significant insights into speech-related cognitive impairments, enhancing early detection strategies for patients at risk of ADRD.
 
 
 ## Dataset
 
-We measured the performance of SpeechCARE using the DementiaBank speech corpus, which includes recordings from 237 subjects who participated in a picture description task. The subjects comprised 122 cognitively impaired and 115 cognitively normal individuals. The dataset was split into training and testing sets with the following characteristics:
+We measured the performance of SpeechDETECT using the DementiaBank speech corpus, which includes recordings from 237 subjects who participated in a picture description task. The subjects comprised 122 cognitively impaired and 115 cognitively normal individuals. The dataset was split into training and testing sets with the following characteristics:
 
 #### Training Data
 
